@@ -1,4 +1,3 @@
-// @ts-nocheck
 import {
   AlertCircle,
   ArrowLeft,
@@ -54,7 +53,6 @@ export default function FeedbackTrackerScreen({
       responseReceived: "Response Received",
       feedbackSubmitted: "Feedback Submitted",
       underReview: "Under Review",
-      resolved: "Resolved",
       description: "Description",
       attachments: "Attachments",
       relatedCase: "Related Case",
@@ -79,7 +77,6 @@ export default function FeedbackTrackerScreen({
       responseReceived: "تم استلام الرد",
       feedbackSubmitted: "تم تقديم التعليق",
       underReview: "قيد المراجعة",
-      resolved: "تم الحل",
       description: "الوصف",
       attachments: "المرفقات",
       relatedCase: "قضية ذات صلة",
